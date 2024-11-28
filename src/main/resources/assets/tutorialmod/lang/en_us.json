@@ -1,5 +1,6 @@
 {
   "item.tutorialmod.raw_sidelate": "Raw Sidelate",
   "item.tutorialmod.sidelate": "Sidelate Ingot",
-  "item.tutorialmod.sidelate_sword": "Sidelate Sword"
+  "item.tutorialmod.sidelate_sword": "Sidelate Sword",
+  "block.tutorialmod.sidelate_block": "Block of Sidelate"
 }

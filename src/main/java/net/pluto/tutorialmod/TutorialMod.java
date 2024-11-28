@@ -15,6 +15,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.pluto.tutorialmod.block.ModBlocks;
 import net.pluto.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,6 +38,7 @@ public class TutorialMod {
 
         // Registering the modEventBus object into the ModItems register method.
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -57,6 +59,10 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.SIDELATE_SWORD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SIDELATE_BLOCK);
         }
     }
 
