@@ -55,6 +55,9 @@ public class TutorialMod {
             event.accept(ModItems.SIDELATE);
             event.accept(ModItems.RAW_SIDELATE);
         }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.SIDELATE_SWORD);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
