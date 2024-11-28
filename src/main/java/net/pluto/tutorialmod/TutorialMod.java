@@ -60,9 +60,11 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.SIDELATE_SWORD);
         }
-
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SIDELATE_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SIDELATE_ORE);
         }
     }
 
