@@ -24,6 +24,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SIDELATE_ORE = registerBlock("sidelate_ore",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(6f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SIDELATE_BRICKS = registerBlock("sidelate_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(6f).requiresCorrectToolForDrops().sound(SoundType.NETHER_BRICKS)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

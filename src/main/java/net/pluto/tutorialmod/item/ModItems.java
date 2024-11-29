@@ -17,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SIDELATE_SWORD = ITEMS.register("sidelate_sword",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SIDELATE_PICKAXE = ITEMS.register("sidelate_pickaxe",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

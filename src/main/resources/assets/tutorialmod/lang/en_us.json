@@ -2,6 +2,8 @@
   "item.tutorialmod.raw_sidelate": "Raw Sidelate",
   "item.tutorialmod.sidelate": "Sidelate Ingot",
   "item.tutorialmod.sidelate_sword": "Sidelate Sword",
+  "item.tutorialmod.sidelate_pickaxe": "Sidelate Pickaxe",
   "block.tutorialmod.sidelate_block": "Block of Sidelate",
-  "block.tutorialmod.sidelate_ore": "Sidelate Ore"
+  "block.tutorialmod.sidelate_ore": "Sidelate Ore",
+  "block.tutorialmod.sidelate_bricks": "Sidelate Bricks"
 }
