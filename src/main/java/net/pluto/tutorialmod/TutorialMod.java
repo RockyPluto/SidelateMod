@@ -63,12 +63,16 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SIDELATE_BLOCK);
             event.accept(ModBlocks.SIDELATE_BRICKS);
+            event.accept(ModBlocks.CHISELED_SIDELATE_BRICKS);
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.SIDELATE_ORE);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.SIDELATE_PICKAXE);
+            event.accept(ModItems.SIDELATE_AXE);
+            event.accept(ModItems.SIDELATE_SHOVEL);
+            event.accept(ModItems.SIDELATE_HOE);
         }
     }
 

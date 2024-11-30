@@ -19,6 +19,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SIDELATE_PICKAXE = ITEMS.register("sidelate_pickaxe",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SIDELATE_AXE = ITEMS.register("sidelate_axe",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SIDELATE_SHOVEL = ITEMS.register("sidelate_shovel",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SIDELATE_HOE = ITEMS.register("sidelate_hoe",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
