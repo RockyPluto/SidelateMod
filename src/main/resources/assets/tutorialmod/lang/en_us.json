@@ -6,8 +6,14 @@
   "item.tutorialmod.sidelate_axe": "Sidelate Axe",
   "item.tutorialmod.sidelate_shovel": "Sidelate Shovel",
   "item.tutorialmod.sidelate_hoe": "Sidelate Hoe",
+
+
   "block.tutorialmod.sidelate_block": "Block of Sidelate",
   "block.tutorialmod.sidelate_ore": "Sidelate Ore",
   "block.tutorialmod.sidelate_bricks": "Sidelate Bricks",
-  "block.tutorialmod.chiseled_sidelate_bricks": "Chiseled Sidelate Bricks"
+  "block.tutorialmod.chiseled_sidelate_bricks": "Chiseled Sidelate Bricks",
+
+
+  "creativetab.tutorialmod.mod_items": "Modded Items",
+  "creativetab.tutorialmod.mod_blocks": "Modded Blocks"
 }
