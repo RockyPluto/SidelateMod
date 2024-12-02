@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:sidelate_block",
+    "tutorialmod:sidelate_bricks",
+    "tutorialmod:chiseled_sidelate_bricks",
+    "tutorialmod:sidelate_ore",
+    "tutorialmod:sidelate_deepslate_ore"
+  ]
+}

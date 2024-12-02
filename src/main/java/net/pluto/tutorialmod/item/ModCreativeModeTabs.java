@@ -36,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SIDELATE_ORE.get());
                         output.accept(ModBlocks.SIDELATE_BRICKS.get());
                         output.accept(ModBlocks.CHISELED_SIDELATE_BRICKS.get());
+                        output.accept(ModBlocks.SIDELATE_DEEPSLATE_ORE.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

@@ -69,6 +69,7 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.SIDELATE_ORE);
+            event.accept(ModBlocks.SIDELATE_DEEPSLATE_ORE);
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.SIDELATE_PICKAXE);
